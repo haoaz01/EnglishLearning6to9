@@ -1,0 +1,63 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/cute"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose class"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="32dp"/>
+
+    <Button
+        android:id="@+id/btn_class6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Class 6"
+        android:layout_marginBottom="16dp"/>
+    <Button
+        android:id="@+id/btn_class7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Class 7"
+        android:layout_marginBottom="16dp"/>
+    <Button
+        android:id="@+id/btn_class8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Class 8"
+        android:layout_marginBottom="16dp"/>
+    <Button
+        android:id="@+id/btn_class9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Class 9"
+        android:layout_marginBottom="32dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btn_vocab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vocabulary number"
+            android:layout_marginEnd="16dp"/>
+
+        <Button
+            android:id="@+id/btn_chart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Score Chart"/>
+    </LinearLayout>
+
+</LinearLayout>
